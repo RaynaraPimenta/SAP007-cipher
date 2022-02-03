@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  background: url(cupido.png);
+  background-size: contain;
+  text-align: center;
+  font-style: oblique;
+  font-size: larger;
+
+}
+
+h1, h2 {
+  color: rgb(192, 0, 80);
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Dancin Script";
+}
+
+#msgUsuario {
+  color: rgb(139, 19, 194);
+}
+p {
+  color: rgb(95, 10, 21);
+}
+
+.entrada{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgb(10, 10, 105);
+}
+
+.saida{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgb(10, 10, 105);
+}
+
+.botao{
+  color: rgb(80, 6, 68);
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgb(47, 10, 133);
+}
+@font-face {
+  font-family: "yessy";
+  src: url(Yessy\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
