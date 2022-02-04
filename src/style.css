@@ -1,48 +1,53 @@
+
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-  background: url(cupido.png);
+  background-image: linear-gradient(rgb(73, 240, 240), rgb(223, 153, 191)), url("coraçãp.jpg");
   background-size: contain;
   text-align: center;
   font-style: oblique;
   font-size: larger;
-
+  
 }
 
 h1, h2 {
   color: rgb(192, 0, 80);
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
   font-family: "Dancin Script";
+  text-align:center; 
 }
 
 #msgUsuario {
   color: rgb(139, 19, 194);
 }
+
 p {
   color: rgb(95, 10, 21);
 }
 
-.entrada{
+.entrada, .saida{
+  background-color:rgb(182, 241, 222);
   border-radius: 20px;
   border-width: 3px;
-  border-color: rgb(10, 10, 105);
+  border-color: rgb(13, 131, 121);
 }
 
-.saida{
-  border-radius: 20px;
-  border-width: 3px;
-  border-color: rgb(10, 10, 105);
+.desloc{
+  background-color:rgb(129, 252, 211);
 }
 
 .botao{
+  background-color:rgb(235, 220, 201);
   color: rgb(80, 6, 68);
   border-radius: 20px;
   border-width: 3px;
   border-color: rgb(47, 10, 133);
 }
-@font-face {
-  font-family: "yessy";
-  src: url(Yessy\ Font\ by\ Situjuh\ \(7NTypes\).otf);
-}
+
+/*.maintitle{
+  @font-face{
+    font-family: url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&display=swap");
+  }
+}*/
