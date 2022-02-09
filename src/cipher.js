@@ -11,10 +11,6 @@ if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))){
         if (cifrando >= 32 && cifrando <= 126) {                           
           cifrando = ((cifrando - 32 + numDeslocamento) % 95) + 32          
         }
-       /* else if (cifrando >= 0 && cifrando <= 32){        
-           let msgUsuario = msgUsuario.unshift("🔷", "❤", "⚡", "⭐", "😘", "😂", "💋", "😀", "🎉", "🤪", "🌹", "👨‍❤️‍👨", "😝", "💞", "💑", "😁", "💖", "😎", "🍰", "😜", "😇", "👩‍❤️‍👩", "🤩", "😏", "🤗", "🙂", "💕", "😙", "😗", "😍", "😋", "🥰")                           
-          cifrando = ((cifrando - 0 + numDeslocamento) % 33) + 0
-          }*/
         msgCifrada += String.fromCharCode(cifrando);                     //joga o resultado da cifra dentro do espaço na msgCifrada
       }
       console.log(msgCifrada)
@@ -32,10 +28,6 @@ if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))){
         if (decifrando >= 32 && decifrando <= 126) {
           decifrando = ((decifrando - 32 - numDeslocamento)% 95) + 32
         }
-       /* else if (decifrando >= 0 && decifrando <= 32){        //acicionar caracteres especiais nas posições 0 -32 ainda não deu certo (┬┬﹏┬┬)
-          let msgUsuario = msgUsuario.unshift("🔷", "❤", "⚡", "⭐", "😘", "😂", "💋", "😀", "🎉", "🤪", "🌹", "👨‍❤️‍👨", "😝", "💞", "💑", "😁", "💖", "😎", "🍰", "😜", "😇", "👩‍❤️‍👩", "🤩", "😏", "🤗", "🙂", "💕", "😙", "😗", "😍", "😋", "🥰")                           
-          decifrando = ((decifrando - 0 + numDeslocamento) % 33) + 0
-          }*/
         msgDecifrada += String.fromCharCode(decifrando);
       }
       console.log(msgDecifrada);

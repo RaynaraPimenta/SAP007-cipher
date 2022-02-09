@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-  background-image: linear-gradient(rgb(73, 240, 240), rgb(223, 153, 191)), url("coraçãp.jpg");
+  background-image: linear-gradient(rgb(163, 236, 236),rgb(240, 207, 225));
   background-size: contain;
   text-align: center;
   font-style: oblique;
@@ -28,14 +28,14 @@ p {
 }
 
 .entrada, .saida{
-  background-color:rgb(182, 241, 222);
+  background-color:rgb(203, 161, 231);
   border-radius: 20px;
   border-width: 3px;
   border-color: rgb(13, 131, 121);
 }
 
 .desloc{
-  background-color:rgb(129, 252, 211);
+  background-color:rgb(227, 182, 238);
 }
 
 .botao{
