@@ -4,32 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" href="#">
+  <link rel="shortcut icon" href="./img/logooficial.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="./reset.css">
 </head>
 
-<body>
-<header>
-  <div class="cabecalho"></div>
-  <h1 class="maintitle">Carta de amor secreta ❤</h1>
-</header>
-    <h2> 1) Digite aqui sua carta de amor, escolha o deslocamento e fale o que sente para a pessoa que você ama. 
-            Aperte no botão "Cifrando minha carta de amor verdadeiro" e veja sua carta cifrada</h2>
-    <h2> 2) Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
-            deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". (❁´◡`❁). 
-            Assim você saberá tudo o que ela tem desejo de te falar!!!</h2>
-    <p> Deixe sua criatividade fluir no caminho que seu coração mandar.</p>
+<body class="body">
+    <img class="logo" src="./img/secretLoveRed.png" alt="Logo Secret Love">
+    
+    <form class="campos">
+      <div class="div-textarea">
+        <textarea class="entrada" id="entrada" cols="40" rows="10" required></textarea>
+        <textarea class="saida" id="saida" name="Seu Texto" cols="40" rows="10"></textarea>
+      </div>
+      <div class="div-deslocamento">
+        <label class="label">
+          Selecione um número para deslocamento:
+          <input type="number" id="deslocamento" class="deslocamento" min="0">
+        </label>
+      </div>
+        <div class="div-botao">
+          <button class="botao cifrar" id="botao">Cifrar</button>
+          <button class="botao descifrar" id="botao">Descifrar</button>
+        </div>
+    </form>
 
-    <textarea class="entrada" id="digiteAqui" cols="40" rows="10" required></textarea>
-    <textarea class="saida" id="textocifrado" name="Seu Texto" cols="40" rows="10"></textarea> <br> <br>
-    <div>
-      <input type="number" id="deslocamento" class="desloc">
-      <p><strong>Selecione um número para deslocamento:</strong></p>
-    </div>
-      <button class="botao butao11" id="botao1" > <strong> Cifrando minha carta de amor verdadeiros </strong></button>
-      <button class="botao butao22" id="botao2" ><strong> O que minha alma gêmea tem a me dizer </strong> </button>
- 
-  <p><label for="textocifrado"><strong>Sua declaração de amor ficou <strong> M.A.R.A.V.I.L.H.O.S.A </strong> ❣️❣️❣️ (●'◡'●)</strong></label></p>
-<script src="index.js" type="module"></script>   
+
+  <script src="index.js" type="module"></script>   
 </body>
+
+<footer>
+</footer>
 </html>

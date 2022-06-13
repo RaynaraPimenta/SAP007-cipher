@@ -14,6 +14,18 @@ botao2.addEventListener("click", function () {                          // quado
   resultado.value = cipher.decode(parseInt(numDeslocamento.value), cartaEntrada.value);
 }, false);
 
+const onModal = document.getElementById("abrirModal")
+function mostrarModal() {
+  const modal = getElementById("instrucoes")
+  modal.style.display ="block"
+}
+onModal.addEventListener("click" modal)
 
 
-// entender melhor como funciona o addEventListene
+// 1-pegar valor do botão de abrir (x)
+//2 fazer uma função com uma const com o valor da instrução (f); colocando display block
+//3- (x).addEventListene(evento, (f))
+
+// 1-pegar valor do botão de fechar (x)
+//2 fazer uma função com uma const com o valor da instrução (f); colocando display none
+//3- (x).addEventListene(evento, (f))
