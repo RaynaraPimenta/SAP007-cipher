@@ -14,6 +14,23 @@ botao2.addEventListener("click", function () {                          // quado
   resultado.value = cipher.decode(parseInt(numDeslocamento.value), cartaEntrada.value);
 }, false);
 
+const showModal = document.getElementById("btnModal");
 
+function instruct () {
+
+    let modal = document.querySelector('.modal')
+    modal.style.display = 'block';  
+}
+showModal.addEventListener('click', instruct)
+
+
+const hideModal = document.getElementById("btnHideModal");
+
+function instructOff () {
+
+    let modal = document.querySelector('.modal')
+    modal.style.display = 'none'; 
+}
+hideModal.addEventListener('click', instructOff)
 
 // entender melhor como funciona o addEventListene
