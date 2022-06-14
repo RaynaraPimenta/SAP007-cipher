@@ -1,36 +1,49 @@
 const cipher = {
-
   encode:
-    function (numDeslocamento, msgUsuario) {
-if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))){
-        throw TypeError("deslocamento precisa ser número")
-      }
-      let msgCifrada = "";                                               // tem que começar com espaço vazio para ele entender quando começar a colocar elementos novos                                        
-      for (let i = 0; i < msgUsuario.length; i++) {                      // começa a ler na posição 0, vai lendo de 1 em 1 posição, para quando a ultima posição for 0, ou seja, quando não tiver mais nada 
-        let cifrando = msgUsuario[i].charCodeAt();                       // o que é escrito na caixa de texto precisa ser identificado no código por sua numeração
-        if (cifrando >= 32 && cifrando <= 126) {                           
-          cifrando = ((cifrando - 32 + numDeslocamento) % 95) + 32          
+
+    function (numDesloc, msgUsuario) {
+
+      let msgCifrada = "";
+
+      for (let i = 0; i < msgUsuario.length; i++) {
+        let cifrando = msgUsuario[i].charCodeAt();
+        if (cifrando >= 65 && cifrando <= 90) {
+          cifrando = ((cifrando - 65 + numDesloc) % 26) + 65
         }
-        msgCifrada += String.fromCharCode(cifrando);                     //joga o resultado da cifra dentro do espaço na msgCifrada
+        else if (cifrando >= 97 && cifrando <= 122) {
+          cifrando = ((cifrando - 97 + numDesloc) % 26) + 97
+        }
+
+
+        msgCifrada += String.fromCharCode(cifrando);
       }
-      return msgCifrada;                                                  //mostra a mensagem cifrada                                                       
+      return msgCifrada;
     },
-    
+
   decode:
-    function (numDeslocamento, msgUsuario) {
-      if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))) {
-        throw TypeError("deslocamento precisa ser número")
-      }
+
+    function (numDesloc, msgUsuario) {
+
       let msgDecifrada = "";
+
       for (let i = 0; i < msgUsuario.length; i++) {
         let decifrando = msgUsuario[i].charCodeAt();
-        if (decifrando >= 32 && decifrando <= 126) {
-          decifrando = ((decifrando - 32 - numDeslocamento)% 95) + 32
+        if (decifrando >= 65 && decifrando <= 90) {
+          decifrando = ((decifrando + 65 - numDesloc) % 26) + 65
         }
+
+        else if (decifrando >= 97 && decifrando <= 97) {
+          decifrando = 97 - ((97 - decifrando + numDesloc) % 26)
+        }
+
         msgDecifrada += String.fromCharCode(decifrando);
       }
-
       return msgDecifrada;
+
     }
 };
+
+
+
+
 export default cipher;
