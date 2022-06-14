@@ -10,30 +10,56 @@
 
 <body>
   <header>
-    <img src="./img/logo-secular-removebg-preview.png" alt="">
+    <img src="./img/logo-oficial.png" alt="">
   </header>
 
   <main>
-    <ol>
-      <li>Digite aqui sua carta de amor, escolha o deslocamento e fale o que sente para a pessoa que você ama.</li>
-      <li>Aperte no botão "Cifrando minha carta de amor verdadeiro" e veja sua carta cifrada</li>
-      <li>Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
-        deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". 
-        Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
-      <li>Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
-        deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". (❁´◡`❁). 
-        Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
-      <li>Deixe sua criatividade fluir no caminho que seu coração mandar.</li>
-    </ol>
-    <textarea class="entrada" id="digiteAqui" cols="40" rows="10" required></textarea>
-    <textarea class="saida" id="textocifrado" name="Seu Texto" cols="40" rows="10"></textarea>
-    <p>Selecione um número para deslocamento:</p>
-    <input type="number" id="deslocamento" class="desloc">
-    <button class="botao butao11" id="botao1" > <strong> Cifrando minha carta de amor verdadeiros </strong></button>
-    <button class="botao butao22" id="botao2" ><strong> O que minha alma gêmea tem a me dizer </strong> </button>
+    <button id= "abrir-modal" class="abrir-modal">Como usar?</button>
+    <div class="modal" style="display: none;" >
+      <ol>
+        <li>Digite aqui sua carta de amor, escolha o deslocamento e fale o que sente para a pessoa que você ama.</li>
+        <li>Aperte no botão "Cifrando minha carta de amor verdadeiro" e veja sua carta cifrada</li>
+        <li>Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
+          deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". 
+          Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
+        <li>Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
+          deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". 
+          Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
+        <li>Deixe sua criatividade fluir no caminho que seu coração mandar.</li>
+        <button id= "fechar-modal" class="fechar-modal">X</button>
+      </ol>
+    </div>
+
+    <textarea class="entrada" id="entrada" cols="40" rows="10" required></textarea>
+    <textarea class="saida" id="saida" name="Seu Texto" cols="40" rows="10"></textarea>
+    <label>
+      Selecione um número para deslocamento:
+      <input type="number" id="deslocamento" class="deslocamento">
+    </label>
+    <button class="cifrar" id="cifrar" >Cifrar</button>
+    <button class="descifrar" id="descifrar" >Descifrar</button>
   </main>
 
-  <footer></footer
+  <footer>
+
+  </footerooter class="footer">
+    <h2 class="footer-h2">© 2022 Projeto desenvolvido por Raynara Pimenta</h2>
+    <nav class="footer-nav">
+      <ul class="nav-ul">
+        <li class="nav-ul-li">
+          <a href="https://github.com/raynarapimenta">
+            <img src="./img/github.png" alt="github-raynara" />
+          </a>
+        </li>
+        <li class="nav-ul-li">
+          <a href="https://www.linkedin.com/in/raynara-pimenta-308b2514b/"> 
+            <img src="./img/linkdin.png" alt="linkedin-raynara" /> 
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
   <script src="index.js" type="module"></script>   
 </body>
 </html>
