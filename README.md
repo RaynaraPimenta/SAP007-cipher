@@ -1,20 +1,68 @@
-# Cifra de César
-
-## Índice
-
-- [1. Prefácio](#1-prefácio)
-- [2. Resumo do projeto](#2-resumo-do-projeto)
-- [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-- [4. Considerações gerais](#4-considerações-gerais)
-- [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-- [6. Hacker edition](#6-hacker-edition)
-- [7. Considerações técnicas](#7-considerações-técnicas)
-- [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-- [9. Checklist](#9-checklist)
+<div align="center">
+   <img alt="Secret Love" src="/src/img/logo-oficial.png">
+</div>
 
 ---
 
-## 1. Prefácio
+# Índice
+- [1. O Projeto](#1-o-projeto)
+- [2 Funcionalidades](#2-funcionalidades)
+- [3. Identidade Visual](#3-identidade-visual)
+<!-- - [4 Paleta de Cores](#4-paleta-de-cores)
+- [5 Tipografia](#5-tipografia)
+- [6 Logotipo](#6-logotipo) -->
+- [4. Desenvolvimento](#4-desenvolvimento)
+- [5 Interface Final](#5-interface-final)
+- [6. Tecnologias](#6-tecnologias)
+- [7. Desenvolvedora](#7-desenvolvedora)
+
+---
+
+ ## :heart_eyes: 1. O Projeto
+  Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. 
+---
+
+
+## 2. Funcionalidades
+O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário.
+---
+
+
+## 3. Identidade visual
+
+---
+
+
+## 4. Desenvolvimento
+
+---
+
+
+## 5. Interface final
+
+---
+
+
+## 6. Tecnologias
+
+---
+
+
+## 7. Desenvolvedora
+
+---
+
+
+
+
+
+
+
+
+
+
+
+## 1. O Projeto
 
 Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
 é um dos primeiros tipos de criptografias conhecidas na história.
