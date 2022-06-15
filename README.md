@@ -19,17 +19,24 @@
 ---
 
  ## :heart_eyes: 1. O Projeto
-  Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. 
+ 
+  Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. _[Clicando aqui](https://raynarapimenta.github.io/SAP007-cipher/) é possível usar a aplicação._
+
 ---
 
 
 ## 2. Funcionalidades
-O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário.
+
+  O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário.
+
 ---
 
 
 ## 3. Identidade visual
-
+<div align="center">
+    <img alt='Gif' src="https://media.giphy.com/media/xT9KVzVj01qfRPiJr2/giphy.gif" width=550 height=260 frameBorder="0">
+    </img>
+  </div>
 ---
 
 
