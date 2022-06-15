@@ -13,10 +13,9 @@ if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))){
         }
         msgCifrada += String.fromCharCode(cifrando);                     //joga o resultado da cifra dentro do espaço na msgCifrada
       }
-      console.log(msgCifrada)
       return msgCifrada;                                                  //mostra a mensagem cifrada                                                       
     },
-       
+    
   decode:
     function (numDeslocamento, msgUsuario) {
       if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))) {
@@ -30,9 +29,8 @@ if (typeof numDeslocamento !== "number" || !isNaN(Number(msgUsuario))){
         }
         msgDecifrada += String.fromCharCode(decifrando);
       }
-      console.log(msgDecifrada);
+
       return msgDecifrada;
     }
 };
 export default cipher;
- 
