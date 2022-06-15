@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-  background-color: rgb(238, 224, 224);
+  background-color: #F2F2F2;
   width: 100vw;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .botao{
   border-radius: 20px;
-  border-color: rgb(208, 49, 171);
+  border-color: #D91A2A;
   border-width: 3px;
   font-size: 14px;
   margin: 3px;
@@ -48,10 +48,10 @@ body {
 .textarea{
   width: 80%;
   height: 200px;
-  background-color: rgb(224 168 172);
+  background-color: #F299A0;
   border-radius: 20px;
   border-width: 3px;
-  border-color: #1da591;
+  border-color: #0D0D0D;
   border-width: 3px;
   margin: 20px;
   font-size: 20px;
@@ -95,7 +95,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(148, 223, 223);
+  background-color: rgb(178, 227, 227);
   font-family: 'Architects Daughter', cursive;
   color: #000000;
   margin-bottom: 0;
