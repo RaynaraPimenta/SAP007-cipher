@@ -3,33 +3,70 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Caesar Cipher</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="shortcut icon" href="./img/coracao.png" type="image/x-icon">
+  <title>Caesar Cipher</title>
 </head>
 
-<body>
-<header>
-  <div class="cabecalho"></div>
-  <h1 class="maintitle">Carta de amor secreta ❤</h1>
-</header>
-    <h2> 1) Digite aqui sua carta de amor, escolha o deslocamento e fale o que sente para a pessoa que você ama. 
-            Aperte no botão "Cifrando minha carta de amor verdadeiro" e veja sua carta cifrada</h2>
-    <h2> 2) Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
-            deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". (❁´◡`❁). 
-            Assim você saberá tudo o que ela tem desejo de te falar!!!</h2>
-    <p> Deixe sua criatividade fluir no caminho que seu coração mandar.</p>
+<body >
+  <div class="flex">
+    <header >
+      <img class="logo" src="./img/logo-oficial.png" alt="logo secret love">
+    </header>
 
-    <textarea class="entrada" id="digiteAqui" cols="40" rows="10" required></textarea>
-    <textarea class="saida" id="textocifrado" name="Seu Texto" cols="40" rows="10"></textarea> <br> <br>
-    <div>
-      <input type="number" id="deslocamento" class="desloc">
-      <p><strong>Selecione um número para deslocamento:</strong></p>
-    </div>
-      <button class="botao butao11" id="botao1" > <strong> Cifrando minha carta de amor verdadeiros </strong></button>
-      <button class="botao butao22" id="botao2" ><strong> O que minha alma gêmea tem a me dizer </strong> </button>
- 
-  <p><label for="textocifrado"><strong>Sua declaração de amor ficou <strong> M.A.R.A.V.I.L.H.O.S.A </strong> ❣️❣️❣️ (●'◡'●)</strong></label></p>
-<script src="index.js" type="module"></script>   
+    <main class="main">
+
+      <div class="modal" style="display: none;" >
+        <button id= "fechar-modal" class="botao">X</button>
+          <ol>
+            <li> Digite aqui sua carta de amor, escolha o deslocamento e fale o que sente para a pessoa que você ama.</li>
+            <li> Aperte no botão "Cifrando minha carta de amor verdadeiro" e veja sua carta cifrada</li>
+            <li> Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
+              deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". 
+              Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
+            <li> Caso já tenha recebido uma bela declaração basta colocar aqui abaixo o seu texto e selecionar o
+              deslocamento que sua alma gêmea te passou e clicar no botão "O que minha alma gêmea tem a me dizer". 
+              Assim você saberá tudo o que ela tem desejo de te falar!!!</li>
+            <li> Deixe sua criatividade fluir no caminho que seu coração mandar.</li>
+          </ol>
+        <img src="./img/fitaCoração.png" alt="fita com formato de coração" class="fita-coracao">
+      </div>
+
+      <button id= "abrir-modal" class="botao como-usar">Como usar?</button>
+
+      <textarea class="textarea" id="entrada" cols="40" rows="10" required></textarea>
+
+      <div class="deslocamento">
+        <p class="paragrafo">Selecione um número para deslocamento:</p>
+          <input type="number" id="numero-deslocamento" class="deslocamento">
+      </div>
+
+      <button class="botao" id="cifrar" >Cifrar</button>
+      <button class="botao" id="descifrar" >Descifrar</button>
+      <textarea class="textarea" id="saida" name="Seu Texto" cols="40" rows="10"></textarea>
+
+      
+    </main>
+  </div>
+
+  <footer class="footer">
+    <h2 class="footer-h2">© 2022 Projeto desenvolvido por Raynara Pimenta</h2>
+
+    <nav class="footer-nav">
+      <a href="https://github.com/raynarapimenta">
+        <img class="contato" src="./img/github.png" alt="github-raynara" />
+      </a>
+    </nav>
+      <nav class="footer-nav">
+      <a href="https://www.linkedin.com/in/raynara-pimenta-308b2514b/"> 
+        <img class="contato" src="./img/linkdin.png" alt="linkedin-raynara" /> 
+      </a>
+    </nav>
+  </footer>
+
+  <script src="index.js" type="module"></script>   
 </body>
 </html>
