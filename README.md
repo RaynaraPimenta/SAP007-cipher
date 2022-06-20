@@ -8,9 +8,6 @@
 - [1. O Projeto](#1-o-projeto)
 - [2 Funcionalidades](#2-funcionalidades)
 - [3. Identidade Visual](#3-identidade-visual)
-<!-- - [4 Paleta de Cores](#4-paleta-de-cores)
-- [5 Tipografia](#5-tipografia)
-- [6 Logotipo](#6-logotipo) -->
 - [4. Desenvolvimento](#4-desenvolvimento)
 - [5 Interface Final](#5-interface-final)
 - [6. Tecnologias](#6-tecnologias)
@@ -43,9 +40,22 @@ Por exemplo se usarmos o deslocamento de 3 posições:
 
 ## 3. Identidade visual
 <div align="center">
-    <img alt='' src="" width=550 height=260 frameBorder="0">
-    </img>
-  </div>
+    <img alt='' src="src/img/prototipo-inicial.png" height=400 frameBorder="0"></img>
+</div>
+
+Para esse projjeto foi desenvolvido um protótipo no qual as cores predominantes eram rosa e azul. 
+
+Após relatos de usuários foi formulada uma logo e separada a paleta relativa a essa logo
+
+<div align="center">
+
+LOGO                     |PALETA
+  :---------------------------------:|:---------------------------------:
+  ![logo](src/img/logo-oficial.png)  |  ![](src/img/paleta.png)
+
+</div>
+
+
 ---
 
 
@@ -80,4 +90,3 @@ Por exemplo se usarmos o deslocamento de 3 posições:
 </td>
 
 </table>
-
