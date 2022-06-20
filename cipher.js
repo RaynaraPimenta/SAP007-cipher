@@ -29,11 +29,10 @@ const cipher = {
       for (let i = 0; i < msgUsuario.length; i++) {
         let decifrando = msgUsuario[i].charCodeAt();
         if (decifrando >= 65 && decifrando <= 90) {
-          decifrando = ((decifrando + 65 - numDesloc) % 26) + 65
+          decifrando = ((decifrando - 65 - numDesloc) % 26) + 65
         }
-
-        else if (decifrando >= 97 && decifrando <= 97) {
-          decifrando = 97 - ((97 - decifrando + numDesloc) % 26)
+        else if (decifrando >= 97 && decifrando <= 122) {
+          decifrando = (( decifrando - 97 - numDesloc) % 26) + 97
         }
 
         msgDecifrada += String.fromCharCode(decifrando);

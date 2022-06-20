@@ -7,7 +7,8 @@ const descifrar = document.getElementById("descifrar");
 const stringDeSaida = document.getElementById("saida");
 
 cifrar.addEventListener("click", function () {
-  stringDeSaida.value = cipher.encode(parseInt(numDeslocamento.value),stringDeEntrada.value);   
+  
+  stringDeSaida.value = cipher.encode(parseInt(numDeslocamento.value),stringDeEntrada.value);
 }, false);
 
 descifrar.addEventListener("click", function () {
