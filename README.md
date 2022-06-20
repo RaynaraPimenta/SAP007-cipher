@@ -8,7 +8,7 @@
 - [1. O Projeto](#1-o-projeto)
 - [2 Funcionalidades](#2-funcionalidades)
 - [3. Identidade Visual](#3-identidade-visual)
-- [4. Desenvolvimento](#4-desenvolvimento)
+- [4. Planejamento e Organização](#4-planejamento-e-organização)
 - [5 Interface Final](#5-interface-final)
 - [6. Tecnologias](#6-tecnologias)
 - [7. Desenvolvedora](#7-desenvolvedora)
@@ -59,7 +59,11 @@ LOGO                     |PALETA
 ---
 
 
-## 4. Desenvolvimento
+## 4. Planejamento e Organização
+
+👉 
+Todo o planejamento foi realizado utilizando o modelo de [Kanban](https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban/). É uma das metodologias ágeis criadas para auxiliar na organização das atividades, modelo esse sugerido pelas mentoras do bootcamp.
+
 
 ---
 
