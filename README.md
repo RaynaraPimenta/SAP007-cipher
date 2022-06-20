@@ -1,8 +1,6 @@
 <div align="center">
-   <img alt="Secret Love" src="/src/img/logo-oficial.png">
+   <img alt="Secret Love" src="src/img/logo-oficial.png">
 </div>
-
----
 
 # Índice
 - [1. O Projeto](#1-o-projeto)
@@ -13,16 +11,12 @@
 - [6. Tecnologias](#6-tecnologias)
 - [7. Desenvolvedora](#7-desenvolvedora)
 
----
 
- ## :heart_eyes: 1. O Projeto
+ # 😍 1. O Projeto
  
 Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. _[Clicando aqui](https://raynarapimenta.github.io/SAP007-cipher/) é possível usar a aplicação._
 
----
-
-
-## 2. Funcionalidades
+# ⚙ 2. Funcionalidades
 
 O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
@@ -34,13 +28,10 @@ Por exemplo se usarmos o deslocamento de 3 posições:
 - A palavra CASA será FDVD;
 
 Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13. 
-  
----
 
-
-## 3. Identidade visual
+# 📺 3. Identidade visual
 <div align="center">
-    <img alt='' src="src/img/prototipo-inicial.png" height=400 frameBorder="0"></img>
+    <img alt='' src="src/img/prototipo-inicial.png" height=400 frameBorder="0" />
 </div>
 
 Para esse projjeto foi desenvolvido um protótipo no qual as cores predominantes eram rosa e azul. 
@@ -55,17 +46,10 @@ LOGO                     |PALETA
 
 </div>
 
-
----
-
-
-## 4. Planejamento e Organização
+# 📝 4. Planejamento e Organização
   Todo planejamento foi realizado ultilizando a metodologia [Kanban](https://www.digitalhouse.com/br/blogcomo-usar-metodologia-kanban/). É uma das metodologias ágeis criadas para auxiliar na organização das atividades, modelo esse sugerido pela equipe de mentoria do bootcamp. 
 
----
-
-
-## 6. Tecnologias
+# 🤖 6. Tecnologias
 <div align= "center"> 
 <img  alt="HTML5" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
 <img alt="CSS3 " width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -74,16 +58,16 @@ LOGO                     |PALETA
 <img alt="Node" width= 50px height= 50px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img alt="Git" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
 <img alt="Github" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+</div>
 
----
 
 
-## 👩🏽‍💻7. Desenvolvedora
+# 👩🏽‍💻 7. Desenvolvedora
 <table align= "center">
-<td>
+  <td>
     <div align= "center">
-    <img alt="RaynaraPimenta" height="150" src="https://avatars.githubusercontent.com/u/97410639?v=4"> 
-  </div>
+      <img alt="RaynaraPimenta" height="150" src="https://avatars.githubusercontent.com/u/97410639?v=4"> 
+    </div>
   <h3 align="center"><a href="https://github.com/RaynaraPimenta">Raynara Pimenta</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
   <div align="center">
