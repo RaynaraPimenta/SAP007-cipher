@@ -17,14 +17,14 @@
 
  ## :heart_eyes: 1. O Projeto
  
-  Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. _[Clicando aqui](https://raynarapimenta.github.io/SAP007-cipher/) é possível usar a aplicação._
+Esse site foi desenvolvido para suprir amantes apaixonados que querem compartilhar seus sentimentos apenas com a pessoa amada. Com ele ocorre uma codificação da carta de amor e somente quem conhece o código de deslocamento consegue entender o que está escrito. _[Clicando aqui](https://raynarapimenta.github.io/SAP007-cipher/) é possível usar a aplicação._
 
 ---
 
 
 ## 2. Funcionalidades
 
-  O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
+O site Secret Love foi baseado no projeto Cipher, proposto pela [Laboratória](https://github.com/Laboratoria), no qual o desafio era usar a Cifra de César para cifrar mensagens de qualuqer usuário. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
 Por exemplo se usarmos o deslocamento de 3 posições:
 
@@ -33,7 +33,7 @@ Por exemplo se usarmos o deslocamento de 3 posições:
 - A letra A será D
 - A palavra CASA será FDVD;
 
-  Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13. 
+Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13. 
   
 ---
 
@@ -60,20 +60,20 @@ LOGO                     |PALETA
 
 
 ## 4. Planejamento e Organização
-
-👉 
-Todo o planejamento foi realizado utilizando o modelo de [Kanban](https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban/). É uma das metodologias ágeis criadas para auxiliar na organização das atividades, modelo esse sugerido pelas mentoras do bootcamp.
-
-
----
-
-
-## 5. Interface final
+  Todo planejamento foi realizado ultilizando a metodologia [Kanban](https://www.digitalhouse.com/br/blogcomo-usar-metodologia-kanban/). É uma das metodologias ágeis criadas para auxiliar na organização das atividades, modelo esse sugerido pela equipe de mentoria do bootcamp. 
 
 ---
 
 
 ## 6. Tecnologias
+<div align= "center"> 
+<img  alt="HTML5" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+<img alt="CSS3 " width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+<img alt="JavaScript" width= 48px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img alt="NPM" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+<img alt="Node" width= 50px height= 50px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+<img alt="Git" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+<img alt="Github" width= 60px height= 60px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 
 ---
 
